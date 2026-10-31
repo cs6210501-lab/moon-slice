@@ -30,6 +30,12 @@ the mirror question — who calls this — has a command.
   unknown callee, unparsable files, qualified vs receiver calls).
 - **294 tests.** CI now also checks the playground presets, and the CLI smoke
   covers package-scope slicing and `callers`.
+- **Published to mooncakes.io** on 2026-10-31 as
+  `NaIWaniubi/moon-slice@0.7.0` (`Server status: 200 OK`). The module namespace
+  moved from the old account name to `NaIWaniubi`, so every internal
+  `moon.pkg` self-import and the packaged JS bundle were rebuilt to match; a
+  scratch module that only depends on the registry copy runs the pipeline and
+  prints `backward-lines=[4]` / `line=1..4`. Details in `PUBLISHING.md`.
 
 ## 0.6.0 — 2026-10-30
 

@@ -59,9 +59,14 @@ cd moon-slice
 ./dev.sh test       # run the test suite
 ```
 
-The library targets the 0.6.0 release line on mooncakes.io; see
-[PUBLISHING.md](PUBLISHING.md) for the exact `moon add chen/moon-slice@0.6.0`
-step and its current publication status.
+The library is published on mooncakes.io as `NaIWaniubi/moon-slice@0.7.0`:
+
+```bash
+moon add NaIWaniubi/moon-slice@0.7.0
+```
+
+<https://mooncakes.io/docs/NaIWaniubi/moon-slice> · release details in
+[PUBLISHING.md](PUBLISHING.md).
 
 ## Quickstart
 

@@ -438,9 +438,8 @@ Findings from an independent audit, all fixed with regression coverage:
 - [x] contribution guide, roadmap, and issue forms
 - [x] acceptance checklist mapping every guide item (`ACCEPTANCE.md`)
 - [x] third-party license inventory (`THIRD_PARTY.md`)
-- [x] `moon package` produces `chen-moon-slice-0.5.0.zip` (976 KB, 122 files)
-- [ ] `moon publish` to mooncakes.io — requires the maintainer's interactive
-  `moon login`; see `PUBLISHING.md`
+- [x] `moon package` produces `NaIWaniubi-moon-slice-0.7.0.zip` (1,159,738 bytes, 140 files)
+- [x] `moon publish` to mooncakes.io — `NaIWaniubi/moon-slice@0.7.0`, `Server status: 200 OK` on 2026-10-31; consumed from a clean module via `moon add` (see `PUBLISHING.md`)
 - [x] live playground verified at https://NaIWaniubi.github.io/moon-slice/
 - [x] author filled in `PROPOSAL.md` (name + school; email/phone deliberately stay out of the public repository)
 - [ ] submit the Feishu form before 2026-10-31 23:59:59
